@@ -1,0 +1,48 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?","Maligayang Araw", "Hello", "Good day", "Whats up"],
+     "responses": ["Maligayang Araw! How can I help you?", "Maligayang Araw! It's good to see you again!", "Maligayang Araw!", "Hey there, Maligayang Araw!"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Ok bye", "Bye bye"],
+     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "See you!", "Have a nice day!", "Sayonara"],
+     "context_set": ""
+    },
+    {"tag": "thanks",
+     "patterns": ["ok thank you", "That's all thank you!", "Thank you for your help", "That's helpful", "Thanks for helping me"],
+     "responses": ["Happy to help!", "My pleasure", "Anytime", "You are welcome"],
+     "context_set": ""
+    },
+    {"tag": "age",
+     "patterns": ["how old", "how old is SquireBot", "what is your age", "how old are you", "age?"],
+     "responses": ["I am a bot so I don't age"],
+     "context_set": ""
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?"],
+     "responses": ["You can call me SquireBot.", "I'm called SquireBot!", "I'm SquireBot, a BEC Automated Help Desk."],
+     "context_set": ""
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, I can't understand you", "Please give me more info"],
+     "context_set": ""
+    },
+    {"tag": "hours",
+     "patterns": ["when are you open", "Are you open today?", "what are your hours", "hours of operation"],
+     "responses": ["We are open 8am-5pm, Monday-Friday!"],
+     "context_set": ""
+    },
+    {"tag": "functions",
+     "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+     "responses": ["I can answer some of your questions about Batangas Eastern Colleges.", "I can answer some of your queries about our school", "I can provide you information about BEC.", "I can help you with some of your questions."],
+     "context_set": ""
+     },
+    {"tag": "",
+     "patterns": ["", "", "", "", ""],
+     "responses": ["", "", "", ""],
+     "context_set": ""
+     }
+]
+}
